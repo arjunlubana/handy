@@ -33,7 +33,7 @@ const MiniStatistics = ({ title, amount, percentage, icon }) => {
               <StatNumber fontSize='lg' color={textColor}>
                 {amount}
               </StatNumber>
-              <StatHelpText
+              {/* <StatHelpText
                 alignSelf='flex-end'
                 justifySelf='flex-end'
                 m='0px'
@@ -42,7 +42,7 @@ const MiniStatistics = ({ title, amount, percentage, icon }) => {
                 ps='3px'
                 fontSize='md'>
                 {percentage > 0 ? `+${percentage}%` : `${percentage}%`}
-              </StatHelpText>
+              </StatHelpText> */}
             </Flex>
           </Stat>
           <IconBox as='box' h={"45px"} w={"45px"} bg={iconTeal}>
