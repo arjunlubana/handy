@@ -13,7 +13,6 @@ import {
   PersonIcon,
   DocumentIcon,
   RocketIcon,
-  SupportIcon,
 } from "components/Icons/Icons";
 
 var dashRoutes = [
@@ -37,13 +36,6 @@ var dashRoutes = [
     icon: <CreditIcon color="inherit" />,
     component: Billing,
     layout: "/admin",
-  },
-  {
-    path: "/rtl-support-page",
-    name: "RTL",
-    icon: <SupportIcon color="inherit" />,
-    component: RTLPage,
-    layout: "/rtl",
   },
   {
     name: "ACCOUNT PAGES",
