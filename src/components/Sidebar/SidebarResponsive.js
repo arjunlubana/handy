@@ -221,8 +221,8 @@ function SidebarResponsive(props) {
       >
         <HamburgerIcon
           color={hamburgerColor}
-          w="18px"
-          h="18px"
+          w="28px"
+          h="28px"
           ref={btnRef}
           colorScheme="teal"
           onClick={onOpen}
